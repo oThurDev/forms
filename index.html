@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="form-card sign-in">
+            <form action="">
+                <span>Login</span>
+                <div class="input-group">
+                    <input type="text" required />
+                    <label for="">Usuário</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" required />
+                    <label for="">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" required />
+                    <label>Senha</label>
+                </div>
+                <button type="submit">Login</button>
+                <div class="signUp-link">
+                    <span>Não tem conta? <a href="./" class="signUp-btn">Faça seu cadastro</a></span>
+                </div>
+            </form>
+        </div>
+        <div class="form-card sign-up">
+            <form action="">
+                <span>Cadastro</span>
+                <div class="input-group">
+                    <input type="text" required />
+                    <label for="">Usuário</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" required />
+                    <label for="">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" required />
+                    <label>Senha</label>
+                </div>
+                <button type="submit">Cadastrar-se</button>
+                <div class="signUp-link">
+                    <span>Já tem conta? <a href="./" class="signIn-btn">Faça seu Login</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
